@@ -1,0 +1,159 @@
+@media (min-width: 768px){
+    .gradient-forma {
+    height: 100vh !important;
+    }
+    }
+@media (min-width: 769px){
+    .gradient-forma {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }    
+
+@media screen and (max-width:990px) {
+    .planos {
+        margin: 0 0 20px;
+    }
+    }
+
+.primary2{
+    color: #54a8f0;
+}
+
+.bg2-primary{
+    background-color: #54a8f0;
+}
+
+.bg3-primary{
+    background-color: #5cb0fa;
+}
+
+.espaçamentos{
+    padding: 60px 0px;
+    border-bottom: 1px solid rgba(88, 88, 88, 0.219);
+}
+
+
+.bordasocial{
+    border-bottom:1px solid rgba(88, 88, 88, 0.219) ;
+}
+
+.text-primary2{
+    color: #54a8f0;
+}
+
+.textobranco{
+    color: white;
+}
+
+.gradient-custom {
+    background: #54a8f0;
+    background: linear-gradient(to right, rgba(84, 168, 240, 0.5), rgba(255, 255, 255, 0.5))
+}
+
+.gradient-custom2{
+  background: #54a8f0;
+  background: linear-gradient(to bottom, rgba(58, 163, 255, 0.925), rgba(255, 255, 255, 0))
+}
+.login-shadow{
+	box-shadow: 0 1px 1px rgba(72,78,85,.6);
+	transition: all .1s ease-out;
+}
+
+.login-shadow:hover{
+	box-shadow: 0 2px 10px rgba(72,78,85,.6);
+}
+  
+.planos{
+    text-align: center;
+    background: #fff;
+    margin: 0 -15px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s;
+}
+.planos:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.planos .planos-header{
+    padding: 20px 0;
+    background: #f5f6f9;
+    border-radius: 0px 0px 0% 10%;
+    transition: all .5s ease 0s;
+}
+
+.planos:hover .planos-header{
+    background: #54cfff;
+}
+
+.planos .planos-header i{
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s;
+}
+
+.planos .planos-valores{
+    font-size: 20px;
+    color: #5c5c5c;
+    transition: all .5s ease 0s;
+}
+
+.planos .mes {
+    margin-top: -3px;
+    display: block;
+    font-size: 18px;
+    color: #cad0de;
+}
+
+.planos:hover .mes,
+.planos:hover .planos-valores,
+.planos:hover .planos-header i {
+    color: #fff;
+}
+
+.planos .topo1 {
+    font-size: 24px;
+    color: #2b2b2b;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.planos .planos-conteudos ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.planos .planos-conteudos ul li {
+    line-height: 30px;
+    color: #797979;
+}
+
+.planos .planos-cadastro a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #c2c2c2;
+    text-transform: uppercase;
+    transition: all .3s ease 0s
+}
+
+.planos .planos-cadastro a:hover {
+    background: #2b2b2b;
+    box-shadow: 0 0 10px #00000093
+}
+
+#inicio{
+    background:#54a8f0 ;
+    color: white;
+}
